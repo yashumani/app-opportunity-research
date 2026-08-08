@@ -1,24 +1,45 @@
-# 2026 App Opportunity Research
+# App Opportunity Research
 
-**Research date:** 2026-08-08  
-**Purpose:** Identify attractive mobile/app businesses that already show strong consumer willingness to pay, then evaluate where a new entrant could build a meaningfully better product with realistic founder-level capital.
+**Last updated:** August 8, 2026  
+**Purpose:** Research, compare, validate, and financially gate multiple potential application businesses across iOS, Android, and the web.
 
-## Executive conclusion
+## What this repository is
 
-The mobile subscription market is large and still growing, but it is increasingly winner-take-more. Sensor Tower reports global in-app purchase spending reached **$167B in 2025**, up about 10% YoY, with non-game app revenue surpassing games for the first time. RevenueCat's 2026 dataset shows the top quartile of subscription apps grew 80% YoY while the bottom quartile shrank 33%; AI apps monetize better early but retain subscribers worse than non-AI apps.
+This is a **portfolio research repository**, not the codebase for one application.
 
-For a founder-controlled build, the best risk-adjusted opportunities are not broad clones of ChatGPT, CapCut, Duolingo, MyFitnessPal, or Strava. The better strategy is to enter proven paid categories with a narrow wedge, high-frequency pain point, and defensible workflow/data layer.
+It is intended to produce multiple evidence-backed product opportunities over time. Market research, competitor data, app-review mining, pricing analysis, cost models, experiments, and investment decisions remain here. When an opportunity earns a formal GO decision, its application is created in a separate private product repository.
 
-### Ranked opportunity domains
+## Current cross-platform landscape
 
-| Rank | Domain | Recommended wedge | Overall view |
-|---|---|---|---|
-| 1 | Vertical AI / Business | AI KPI & Operations Brief | **Best risk-adjusted** |
-| 2 | Education / Coaching | Workplace communication + analytics coaching | **Strong second choice** |
-| 3 | Health / Nutrition | South Asian / culturally accurate meal tracking | **High upside, higher risk** |
-| 4 | Creator / Photo / Video | Vertical content studio for one profession | **Crowded; sharp niche required** |
+The first portfolio map covers ten commercially important categories across the Apple App Store, Google Play, and the web.
 
-## Repository structure
+- [`research/00-top-10-cross-platform-categories.md`](./research/00-top-10-cross-platform-categories.md) — full category landscape, platform leaders, opportunity ranking, cost bands, and category briefs.
+- [`market-data/top-10-cross-platform-category-scorecard-2026.csv`](./market-data/top-10-cross-platform-category-scorecard-2026.csv) — machine-readable category scorecard.
+- [`decisions/category-research-roadmap.md`](./decisions/category-research-roadmap.md) — portfolio funnel, standard research method, scoring system, and capital-release gates.
+- [`sources/2026-market-source-registry.md`](./sources/2026-market-source-registry.md) — source hierarchy, links, limitations, and evidence rules.
+
+### Two rankings are intentionally maintained
+
+The categories with the most current money and attention are not necessarily the best categories for a new entrant.
+
+| Market-power rank | Category | New-entrant rank | Portfolio view |
+|---:|---|---:|---|
+| 1 | Social, Dating & Communities | 10 | Massive market; severe network, safety, moderation, and acquisition barriers |
+| 2 | Entertainment, Streaming & Short Drama | 9 | Strong spend; content and paid-distribution economics dominate |
+| 3 | AI Assistants & Vertical Agents | 6 | Strong demand; pursue only through a focused workflow and proprietary context |
+| 4 | Shopping, Resale & Seller Tools | 5 | Favor seller intelligence and workflow tools over a new marketplace |
+| 5 | Creator, Photo & Video Tools | 7 | Proven subscriptions but highly AI-saturated and inference-cost exposed |
+| 6 | Business, Productivity & Utilities | 1 | **Best risk-adjusted starting category** |
+| 7 | Finance, Budgeting & Investing | 8 | Strong willingness to pay; trust, data, security, and regulation raise the barrier |
+| 8 | Health, Fitness & Nutrition | 3 | Excellent subscription economics; higher privacy, policy, and accuracy obligations |
+| 9 | Education, Language & Professional Coaching | 2 | Strong outcome-specific and habit-based opportunities |
+| 10 | Travel, Navigation & Local Discovery | 4 | Attractive focused utilities; real-time data and seasonality matter |
+
+AI is treated primarily as a **capability inside a domain product**, not as a complete category thesis. A vertical finance, health, travel, education, or business agent should be evaluated first through the economics and customer problem of that domain.
+
+## Existing first-pass domain studies
+
+These reports predate the broader ten-category map and are now treated as initial dossiers within the portfolio:
 
 - [`research/01-vertical-ai-business.md`](./research/01-vertical-ai-business.md)
 - [`research/02-education-coaching.md`](./research/02-education-coaching.md)
@@ -26,55 +47,86 @@ For a founder-controlled build, the best risk-adjusted opportunities are not bro
 - [`research/04-creator-photo-video.md`](./research/04-creator-photo-video.md)
 - [`financial-models/shared-cost-model.md`](./financial-models/shared-cost-model.md)
 
-Planned next layers:
+They will be revised as deeper competitor, pricing, review, and validation evidence is collected.
 
-- `market-data/competitors/`
-- `market-data/app-reviews/`
-- `market-data/pricing/`
-- `analysis/`
-- `ideas/validated-opportunities/`
-- `sources/`
-- `decisions/`
+## Portfolio funnel
 
-## Research method
+The research program is designed to reduce 10 broad markets to a small number of investable products:
 
-1. Validate category-level willingness to pay and market momentum.
-2. Identify 15-30 meaningful competitors per domain.
-3. Collect pricing, positioning, feature sets, ranking/download indicators, and review evidence.
-4. Mine recurring complaints and unmet needs rather than cherry-picking reviews.
-5. Score opportunities on demand, differentiation, build complexity, variable cost, regulatory risk, founder fit, and distribution.
-6. Use staged investment gates before committing meaningful development capital.
+1. **10 category tracks**
+2. **3–5 concepts per category** — approximately 30–50 concepts
+3. **One evidence-backed shortlist per category**
+4. **Five low-cost validation experiments**
+5. **Two or three concierge/prototype candidates**
+6. **Separate product repository only after a GO decision**
+
+More than one application may ultimately be built, but development capital is released sequentially rather than spread across ten simultaneous builds.
+
+## Research order
+
+### Wave 1
+
+1. Business, Productivity & Utilities
+2. Education, Language & Professional Coaching
+3. Health, Fitness & Nutrition
+
+### Wave 2
+
+4. Travel, Navigation & Local Discovery
+5. Shopping, Resale & Seller Tools
+6. Finance, Budgeting & Investing
+
+### Wave 3
+
+7. AI Assistants & Vertical Agents
+8. Creator, Photo & Video Tools
+
+### Observe first
+
+9. Entertainment, Streaming & Short Drama
+10. Social, Dating & Communities
+
+## Standard category research package
+
+Every category should eventually contain:
+
+- Top iOS, Android, and web products.
+- Pricing, trials, monetization, target segment, positioning, and distribution.
+- A feature and workflow matrix.
+- 500–1,500 pieces of review/support/community evidence where feasible.
+- Complaint clusters with frequency, severity, workaround, and willingness-to-pay implications.
+- Three to five differentiated product concepts.
+- Founder-assisted and professional build estimates.
+- API/infrastructure economics at 100, 1,000, and 10,000 active users.
+- Regulatory, privacy, safety, content, and platform-policy risks.
+- A low-cost validation experiment with explicit pass, revise, and kill thresholds.
 
 ## Investment gates
 
-### Gate 1 — problem validation
-Collect 500-1,500 reviews/complaints across competitors, cluster recurring pain points, interview 10-20 target users, and test a price-bearing landing page.
+### Gate 0 — desk research
 
-**Pass condition:** the same painful problem appears repeatedly across independent sources and at least 3-5 target users demonstrate willingness to pay, pre-order, or enter a pilot.
+Build the competitor map, complaint clusters, concept set, and preliminary economics.
 
-### Gate 2 — concierge / prototype validation
-Build one workflow and manually handle anything that does not need automation yet.
+### Gate 1 — problem and price validation
 
-**Pass condition:** users return voluntarily, complete the core workflow repeatedly, and at least some convert at the intended price.
+Do not spend more than approximately **$2,500–$3,000 per shortlisted concept** before repeated pain and real willingness-to-pay evidence exists.
 
-### Gate 3 — marketplace MVP
-Only after retention evidence exists, add production authentication, subscriptions, analytics, reliability, privacy controls, monitoring, and store release.
+### Gate 2 — functional proof
 
-## Core sources
+Do not spend more than approximately **$10,000–$12,000 cumulatively for most concepts** before users repeat the workflow and real payment or pilot evidence appears.
 
-- Sensor Tower, *State of Mobile 2026*: https://sensortower.com/press/press-release-boosted-by-gen-ai-services-consumers-spent-more-money-in-apps-than-games-for-first-time
-- RevenueCat, *State of Subscription Apps 2026*: https://www.revenuecat.com/state-of-subscription-apps
-- AppsFlyer, *State of Subscriptions for Marketers 2026*: https://www.appsflyer.com/company/newsroom/pr/subscription-trends-report/
-- Clutch, *Mobile App Pricing Guide 2026*: https://clutch.co/directory/mobile-application-developers/pricing
-- Upwork, mobile developer cost guide: https://www.upwork.com/hire/mobile-app-developers/cost/
-- Apple Developer Program: https://developer.apple.com/programs/enroll/
-- Google Play testing requirements: https://support.google.com/googleplay/android-developer/answer/14151465
-- Google Play service fees: https://support.google.com/googleplay/android-developer/answer/112622
-- RevenueCat pricing: https://www.revenuecat.com/pricing/
-- Supabase pricing: https://supabase.com/pricing
-- Expo pricing: https://expo.dev/pricing
-- OpenAI models/pricing: https://developers.openai.com/api/docs/models/compare
+### Gate 3 — commercial MVP
 
----
+Only after Gate 2 should the project receive a feature-level estimate, privacy/policy review, approved budget, formal GO record, and separate product repository.
 
-**Important:** Revenue estimates from third-party app-intelligence providers are estimates, not audited company financial statements. Cost figures are scenario models and should be re-priced before committing capital.
+## Core principle
+
+A category is not selected because it is trending, because an incumbent earns substantial revenue, or because an AI-generated concept sounds compelling.
+
+A product earns investment only when four things align:
+
+> **Repeated painful problem + reachable customer + credible differentiated workflow + economics supported by actual behavior.**
+
+## Important research limitations
+
+Third-party mobile revenue and download figures are estimates rather than audited company financial statements. Store rankings change frequently and underrepresent products monetized through advertising, commerce, bookings, payments, lending, brokerage, enterprise contracts, or web subscriptions. Website traffic indicates demand and habit, not necessarily profitability. Every shortlisted concept must be re-verified before capital is committed.
