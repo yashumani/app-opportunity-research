@@ -1,6 +1,6 @@
 # App Opportunity Research
 
-**Last updated:** August 8, 2026  
+**Last updated:** August 9, 2026  
 **Purpose:** Research, compare, validate, and financially gate multiple potential application businesses across iOS, Android, and the web.
 
 ## What this repository is
@@ -36,6 +36,17 @@ The categories with the most current money and attention are not necessarily the
 | 10 | Travel, Navigation & Local Discovery | 4 | Attractive focused utilities; real-time data and seasonality matter |
 
 AI is treated primarily as a **capability inside a domain product**, not as a complete category thesis. A vertical finance, health, travel, education, or business agent should be evaluated first through the economics and customer problem of that domain.
+
+## Active candidate build plans
+
+### Project Aahar — Health, Fitness & Nutrition
+
+A nutrition-first general-wellness application for South Asian adults. The proposed wedge is fast photo-assisted meal logging with targeted confirmation questions, transparent nutrient ranges, deterministic calculations, and household recipe memory.
+
+- [`plans/health-fitness-nutrition/01-project-aahar-build-plan.md`](./plans/health-fitness-nutrition/01-project-aahar-build-plan.md) — product scope, user journeys, AI and nutrition architecture, privacy/compliance boundary, delivery phases, costs, metrics, launch plan, and GO/REVISE/KILL gates.
+- [`plans/health-fitness-nutrition/02-project-aahar-mvp-backlog.csv`](./plans/health-fitness-nutrition/02-project-aahar-mvp-backlog.csv) — phase-by-phase executable backlog with owners, dependencies, acceptance criteria, and investment gates.
+
+**Current status:** Phase 0 validation plan only. A separate product repository and commercial build are not approved until the concept passes the documented gates.
 
 ## Existing first-pass domain studies
 
