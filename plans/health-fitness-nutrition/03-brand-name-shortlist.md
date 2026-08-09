@@ -1,199 +1,255 @@
-# Health App Brand-Name Shortlist and Preliminary Clearance
+# Neutral Health App Brand-Name Shortlist and Preliminary Clearance
 
 **Screening date:** August 9, 2026  
-**Product:** South Asian home-food nutrition and activity application  
-**Current internal codename:** Project Aahar  
-**Recommended public-brand candidate:** **ThaliTrace**  
+**Product:** Recipe-aware nutrition, meal logging, activity, and progress application  
+**Naming rule:** Use globally understandable English or coined names. Exclude Hindi, Sanskrit, and other regional-language references.  
+**Recommended candidate:** **MealFathom**  
 **Status:** Preliminary public screening only; not a legal clearance opinion
 
 ## Executive recommendation
 
-Use **ThaliTrace** as the leading candidate for customer testing and formal clearance.
+Advance the following three names to user testing and formal clearance:
 
-### Proposed brand system
+1. **MealFathom** — strongest overall brand
+2. **MealDecode** — clearest immediate product meaning
+3. **MealCandid** — strongest transparency and trust positioning
 
-- **Brand:** ThaliTrace
-- **App Store working title:** `ThaliTrace: South Asian Food`
-- **Descriptor:** South Asian nutrition and meal tracker
-- **Tagline:** **Every estimate, explained.**
-- **Secondary tagline:** **Real recipes. Smarter portions. Clearer macros.**
-- **Acronym story:** **TRACE — Transparent Recipe-Aware Calorie Estimation**
-- **Optional internal THALI expansion:** **Trusted Home-food Analysis & Lifestyle Intelligence**
+Use **MealFathom** as the provisional leader.
 
-The acronym should support the product story, not be forced into every consumer-facing message.
+### Recommended provisional brand system
 
-## Why ThaliTrace leads
+- **Brand:** MealFathom
+- **Acronym story:** **FATHOM — Food Analysis Through Honest, Observable Metrics**
+- **App Store working title:** `MealFathom: Smart Food Log`
+- **Descriptor:** Recipe-aware nutrition and meal tracker
+- **Primary tagline:** **Understand what is in your meal.**
+- **Secondary tagline:** **Review the estimate. Confirm the details. Track with confidence.**
 
-1. **It communicates the differentiator.** The product is not merely taking a food picture; it traces an estimate back to recipe assumptions, portions, ingredients, and sources.
-2. **It supports the trust position.** “Trace” fits confidence ranges, source lineage, correction history, and explainable nutrition calculations.
-3. **It is culturally relevant without using the already-crowded Aahar/Aahaar family.**
-4. **It can expand.** The initial South Asian wedge is clear, while “trace” can later cover activity, habits, recipes, and other cuisines.
-5. **Preliminary public searches found no obvious exact-match app or brand.** Exact-match searches across public Apple App Store and Google Play pages, general web results, and indexed domain/trademark results did not surface a product called ThaliTrace. This remains subject to live reservation and full clearance.
+The acronym supports the brand story but should not be forced into every customer-facing message.
 
 ---
 
 ## Naming criteria
 
-Candidates were assessed on:
+Candidates were evaluated for:
 
-- Memorability and pronunciation.
-- Relevance to South Asian home-cooked food.
-- Fit with the confirmation-first and transparent-range product philosophy.
-- Ability to work on iOS, Android, web, and future coaching surfaces.
-- Distinctiveness versus generic `Nutri`, `Calorie`, `Macro`, `AI`, and `Fit` names.
-- Preliminary public conflicts in applications, companies, websites, domains, and trademarks.
-- Avoidance of diagnosis, medical accuracy, or guaranteed-result implications.
+- Global pronunciation and spelling.
+- Memorability after hearing the name once.
+- Relevance to meal understanding, portion confirmation, recipe context, and transparent estimates.
+- Fit across iOS, Android, web, activity tracking, and future coaching features.
+- Avoidance of medical, diagnostic, guaranteed-accuracy, and guaranteed-result implications.
+- Distinctiveness versus crowded `Calorie`, `Macro`, `Nutri`, `AI`, `Fit`, and `Snap` naming patterns.
+- Preliminary conflicts across public app-store listings, websites, businesses, exact domain strings, and indexed trademark references.
+- Ability to support a recognizable visual identity and product family.
 
 ---
 
 ## Ranked shortlist
 
-| Rank | Candidate | Expansion / meaning | Strength | Preliminary public status | Main caution |
+| Rank | Candidate | Expansion or meaning | Primary strength | Preliminary exact-match result | Main caution |
 |---:|---|---|---|---|---|
-| 1 | **ThaliTrace** | **TRACE:** Transparent Recipe-Aware Calorie Estimation | Best match for explainability, ranges, and recipe lineage | No obvious exact public app/brand match found | Live domain, Apple reservation, phonetic trademark, and common-law checks still required |
-| 2 | **ThaliTally** | **THALI:** Trusted Home-food Analysis & Lifestyle Intelligence; “tally” describes logging | Most memorable and consumer-friendly | No obvious exact public app/brand match found | `TALLY` is used in multiple registered software marks; composite-mark legal review is important |
-| 3 | **KatoriIQ** | **KATORI:** Kitchen-Aware Tracking, Outcomes & Recipe Intelligence | Distinctive; naturally connects to portions and familiar serving vessels | No obvious exact public app/brand match found | Some U.S. users may not know the word or pronunciation; bowl association may feel narrow |
-| 4 | **ThaliMetric** | Thali + measurable nutrition; optional **METRIC:** Meal Estimation & Trusted Recipe Intelligence Calculator | Clear, credible, analytical | No obvious exact public app/brand match found | More functional than emotional; sounds like a measurement tool |
-| 5 | **Thalytics** | Thali + analytics | Coined and potentially easier to protect than descriptive names | No obvious exact public app/brand match found | Pronunciation/spelling need testing; may sound like B2B analytics rather than wellness |
-| 6 | **MasalaMeter** | **MASALA:** Meal Analysis System for Activity, Lifestyle & Accuracy | Playful, memorable, strong alliteration | No obvious exact public app listing found | Can imply spice measurement and may pigeonhole the product as Indian-only |
-| 7 | **ThaliNudge** | Behavior and habit support around meals | Friendly and expandable into adherence coaching | No obvious exact public app/brand match found | Does not communicate calculation, accuracy, or food recognition as clearly |
-| 8 | **GharFuel** | Home food as daily fuel | Warm, broad, fitness-compatible | No obvious exact public app listing found | Could sound like meal delivery, supplements, cooking gas, or an energy brand |
-| 9 | **KhanaLens** | A visual lens for familiar food | Immediately communicates photo recognition | No obvious exact public app listing found | Too camera-centric if recipe memory and broader wellness become the moat |
-| 10 | **SahiMacros** | **SAHI:** Smart Analysis of Home Intake | Meaningful promise of “right” or appropriate macros | No obvious exact public app listing found | Highly descriptive, weaker protectability, and “right macros” may overstate accuracy |
+| 1 | **MealFathom** | **FATHOM:** Food Analysis Through Honest, Observable Metrics | Brandable, trustworthy, and aligned with understanding complex meals | No exact public Apple/Google app, company, or indexed domain use found during screening | `Fathom` is used by unrelated companies, and an adjacent supplement brand uses “Fathom Nutrition”; similar-mark review is required |
+| 2 | **MealDecode** | **DECODE:** Dietary Estimates, Confirmed Options, Data & Explanations | Immediately explains that the product breaks a meal into understandable parts | No exact public Apple/Google app, company, or indexed domain use found during screening | More descriptive and therefore potentially less protectable than a coined brand |
+| 3 | **MealCandid** | **CANDID:** Calorie Analysis, Nutrition Data & Ingredient Detail | Strongest match for honest estimates and confirmation-first design | No exact public Apple/Google app, company, or indexed domain use found during screening | `Candid` is widely used outside nutrition, including healthcare-adjacent businesses; category inference needs testing |
+| 4 | **MealFacet** | **FACET:** Food Analysis, Calories, Estimates & Trends | Expresses that mixed meals have multiple ingredients, portions, and preparation factors | No exact public Apple/Google app, company, or indexed domain use found during screening | More abstract; an unrelated fitness app uses `Facet Seven`, so a similar-mark review is necessary |
+| 5 | **PortionLens** | **LENS:** Logged Estimates, Nutrition & Servings | Clearest functional description of camera-assisted portion review | No exact public Apple/Google app, company, or indexed domain use found during screening | Narrower than the full product and relatively descriptive, which may weaken trademark strength |
 
-### Recommendation by brand personality
+## Recommendation by brand objective
 
-- **Best overall:** ThaliTrace
-- **Most playful and memorable:** ThaliTally
-- **Most distinctive/culturally specific:** KatoriIQ
-- **Most data-forward:** ThaliMetric
-- **Most coined/technical:** Thalytics
+- **Best overall:** MealFathom
+- **Best instant comprehension:** MealDecode
+- **Best trust and honesty position:** MealCandid
+- **Best visual-system potential:** MealFacet
+- **Best feature-forward name:** PortionLens
 
 ---
 
-## Names rejected during screening
+## Why MealFathom leads
 
-| Name | Reason for rejection |
+### 1. It reflects the actual customer job
+
+The product does not claim to identify every hidden ingredient perfectly from a photograph. It helps the user understand the meal by combining visual suggestions, confirmation questions, recipe context, portion information, and structured nutrition data.
+
+### 2. It supports an honest product promise
+
+“Fathom” means to understand something deeply. That is compatible with confidence ranges, source explanations, editable estimates, and household recipe memory without implying medical-grade precision.
+
+### 3. It is globally neutral
+
+It contains no country, cuisine, ethnicity, language, or regional reference. The initial product can serve a focused audience while the brand remains expandable to other cuisines and markets.
+
+### 4. It can support a strong interface and identity
+
+Potential visual directions include:
+
+- A meal divided into understandable layers.
+- A depth line or contour revealing hidden components.
+- A simple plate plus an information-depth indicator.
+- A progress ring that moves from estimate to confirmed result.
+
+### 5. It remains flexible
+
+The brand can cover nutrition, recipes, activity, habit trends, coaching, and family meal memory without being limited to calorie counting or image scanning.
+
+---
+
+## Candidate brand systems
+
+### MealFathom
+
+- **Tagline:** Understand what is in your meal.
+- **Alternative:** Go beyond the photo.
+- **Store title:** `MealFathom: Smart Food Log`
+- **Brand character:** thoughtful, transparent, intelligent, calm
+
+### MealDecode
+
+- **Tagline:** Decode the meal. Confirm the details.
+- **Alternative:** From photo to understandable nutrition.
+- **Store title:** `MealDecode: Food & Macros`
+- **Brand character:** direct, practical, modern, instructional
+
+### MealCandid
+
+- **Tagline:** Honest estimates for real meals.
+- **Alternative:** Nutrition tracking without false precision.
+- **Store title:** `MealCandid: Nutrition Log`
+- **Brand character:** trustworthy, friendly, nonjudgmental, transparent
+
+### MealFacet
+
+- **Tagline:** See every side of your meal.
+- **Alternative:** Ingredients, portions, preparation—made clear.
+- **Store title:** `MealFacet: Food Insights`
+- **Brand character:** analytical, visual, modular, premium
+
+### PortionLens
+
+- **Tagline:** Review portions. Refine the estimate.
+- **Alternative:** A clearer view of what you ate.
+- **Store title:** `PortionLens: Meal Tracker`
+- **Brand character:** functional, visual, approachable, precise-but-honest
+
+---
+
+## Names removed during screening
+
+The following directions were rejected because active products, apps, websites, or close category conflicts already exist:
+
+| Name direction | Reason removed |
 |---|---|
-| **Aahar / Project Aahar as public name** | Exact Android app exists; the word is heavily used by food, nutrition, nonprofit, and wellness organizations; `aahar.com` is registered; adjacent U.S. food marks exist |
-| **MacroMasala** | Exact iOS Health & Fitness application already exists for Indian meal calorie and macro tracking—the closest direct naming/product collision found |
-| **MacroMitra** | Already used for a precision-nutrition web application/project |
-| **Nivra** | Already used by active wellness applications, including an AI food-scanning nutrition product; live/pending trademark activity exists |
-| **Nutrasa** | Active nutrition businesses use the name, including animal-nutrition companies |
-| **Kavra** | Active education application and website |
-| **Pavra** | U.S. trademark filing in a medical-apparatus category creates unnecessary health-adjacent risk |
-| **Khanalytics** | Exact/near-exact active analytics company and web presence |
-| **PakkaPlate** | Exact phrase appeared less crowded, but `Pakka` is actively used for plates/tableware, creating awkward commercial and search adjacency |
-| **RasaRange** | “Rasa Range” is already used commercially as a product-range phrase, reducing ownability |
+| **MealVerity** | Too close in sound and spelling to active food products such as MealVersity and MealVerve |
+| **NourishTrace** | Too close to active nutrition products using NuTrace and NutriTrace |
+| **IntakeAtlas** | Exact active healthcare assessment platform exists |
+| **MealLume** | `Lume` is already used by multiple active nutrition and wellness applications |
+| **MealPrism** | Active PRISM Nutrition businesses and health technology products create unnecessary adjacency |
+| **MealFrame** | Exact active AI meal-planning and nutrition product exists |
+| **MealRadar** | Exact active food applications and website exist |
+| **MealScope** | Exact active meal-scanning and food-discovery products exist |
+| **Mealory** | Exact active calorie-tracking, recipe, and meal applications exist |
+| **Calibite** | Exact active AI nutrition and calorie-tracking application exists |
+| **PlateProof** | Exact active food-allergen platform and registered-mark evidence found |
+| **Portionary** | Exact active nutrition-tracking products and app listing found |
+| **PlateClarity** | Exact active nutrition/menu-analysis business exists |
+| **PlateLogic** | Used by active food, nutrition, and operational products |
+| **MealLedger** | Existing application/product use found |
+| **PortionPilot** | Existing nutrition API/product use found |
 
 ---
 
-## Preliminary screening scope
+## What preliminary screening does and does not establish
 
-The screening performed so far includes:
+For the five shortlisted compound names, exact public searches did not surface an obvious matching Apple App Store listing, Google Play listing, nutrition company, or indexed use of the exact `.com` or `.app` string at the time of screening.
 
-1. Exact and spaced-name web searches.
-2. Public Apple App Store and Google Play result searches.
-3. Exact `.com` string and indexed WHOIS/domain-result searches.
-4. Exact-name and obvious brand/company searches.
-5. Preliminary federal-trademark web-index searches.
-6. Obvious direct-competitor and adjacent-health conflict review.
+This does **not** mean a name is legally available or guaranteed to be reservable:
 
-### What this does not prove
+- Apple may have an unreleased App Store Connect record that is not visible in public search.
+- A domain may be registered, parked, or reserved without being indexed by search engines.
+- Trademark conflicts may arise from similar sound, appearance, meaning, or commercial impression—not only exact matches.
+- Federal searches do not cover every state registration or earlier common-law user.
+- International rights have not been screened.
+- Google Play also considers impersonation, misleading metadata, and brand rights.
 
-A candidate is **not cleared** merely because no public exact match appeared.
-
-- Apple can have an unreleased/private App Store Connect record reserving a name. Apple states that an app name used by another developer is unavailable unless the claimant has enforceable trademark rights.
-- A domain can be registered or reserved without appearing in ordinary search results. Availability must be confirmed in a live registrar or authoritative RDAP lookup immediately before purchase.
-- Google Play public titles are not the entire identity check; package names, impersonation, and brand rights also matter.
-- Trademark conflicts can arise from similar sound, appearance, meaning, or commercial impression—not only exact matches.
-- Federal databases do not cover every state registration or unregistered/common-law user.
-- International availability has not yet been cleared.
-
-USPTO guidance recommends a comprehensive clearance search across federal records, state databases, the internet, similar marks, and related goods/services before filing.
+Use the phrase **“no exact public match found during preliminary screening,”** not “available,” until live and legal checks are complete.
 
 ---
 
-## Required reservation and clearance sequence
+## Required final-clearance sequence
 
-Do these in one coordinated session once a finalist is approved, because availability can change:
+Complete these steps in one coordinated session after choosing two finalists:
 
-1. **Live domain check and purchase**
-   - Primary: `thalitrace.com`
-   - Defensive candidates: `getthalitrace.com`, `thalitrace.app`, and `thalitrace.health`
-   - Do not assume any is available until the registrar confirms checkout.
+1. **Live domain lookup and purchase**
+   - Check the exact `.com`, `.app`, and practical `get<name>.com` alternative through a registrar.
+   - Purchase immediately only after the final owner/entity is confirmed.
 
-2. **Apple App Store Connect reservation**
-   - Attempt `ThaliTrace: South Asian Food` and `ThaliTrace` as appropriate.
-   - Create the application record only after confirming the final owner/developer account.
+2. **Apple App Store Connect test**
+   - Attempt to create the intended app record.
+   - Keep the name within Apple's 30-character limit.
+   - Test the exact brand and brand-plus-descriptor format.
 
-3. **Google Play reservation/setup**
-   - Reserve a package identifier such as `com.<company>.thalitrace`.
-   - Confirm the public title does not create an impersonation or brand issue.
+3. **Google Play identity setup**
+   - Reserve the package identifier.
+   - Verify the title, icon, website, and developer identity are consistent and non-impersonating.
 
-4. **Social and developer identity**
-   - Check Instagram, TikTok, YouTube, X, LinkedIn, Facebook, and GitHub organization handles.
-   - Prefer the same spelling everywhere; use `getthalitrace` only when necessary.
+4. **Comprehensive trademark clearance**
+   - Search exact spelling, spacing, phonetic variants, plurals, related meanings, and similar marks.
+   - Check federal applications/registrations, state records, business registries, domains, app stores, and common-law internet use.
+   - Review relevant software, SaaS, health, wellness, and nutrition goods/services with trademark counsel.
 
-5. **Formal trademark clearance**
-   - Search exact, phonetic, plural, spacing, spelling, translation, and meaning variants.
-   - Review at least relevant software/SaaS/wellness classes and coordinated classes; likely starting points include Classes 9, 42, and 44, subject to counsel.
-   - Include state records and common-law internet use.
-   - Have a U.S. trademark attorney review before filing or major branding expenditure.
+5. **Social/developer handles**
+   - Check major social platforms, GitHub organization names, support-email format, and company-name availability.
 
-6. **User testing**
-   - Test the top three names with 15–20 target users.
-   - Measure unaided recall, pronunciation, spelling, perceived purpose, trust, cultural fit, and willingness to recommend.
+6. **User comprehension test**
+   - Test MealFathom, MealDecode, and MealCandid blindly with at least 15–20 target users.
 
 ---
 
-## Suggested name test
+## Suggested blind-name test
 
-Show only the names—not explanations—to target users:
+Show the names without explanations:
 
-1. ThaliTrace
-2. ThaliTally
-3. KatoriIQ
+1. MealFathom
+2. MealDecode
+3. MealCandid
 
-Ask:
+Ask each participant:
 
 - What do you think this product does?
-- How would you pronounce it?
+- How would you pronounce the name?
 - How would you spell it after hearing it once?
 - Which feels most trustworthy?
 - Which feels most modern?
-- Which feels culturally relevant without being limiting?
-- Which would you search for again tomorrow?
+- Which sounds least judgmental?
+- Which would you remember tomorrow?
+- Which would you feel comfortable recommending aloud?
 
 ### Passing criteria
 
-A final name should achieve:
+A finalist should achieve:
 
-- 80%+ correct pronunciation.
-- 70%+ correct spelling after hearing it.
-- 60%+ correct category inference without a descriptor.
-- No material negative interpretation in the initial audience.
-- Strongest or second-strongest unaided recall.
-- Successful domain, store, and legal clearance.
+- 85%+ correct pronunciation.
+- 75%+ correct spelling after hearing it.
+- 60%+ correct nutrition/meal category inference with a descriptor.
+- No meaningful medical, diet-culture, or negative interpretation.
+- First- or second-place unaided recall.
+- Successful live domain and store checks.
+- Acceptable professional trademark-clearance result.
 
 ---
 
 ## Current decision
 
-**Advance `ThaliTrace`, `ThaliTally`, and `KatoriIQ` to user testing and formal live reservation checks.**
+**Advance MealFathom, MealDecode, and MealCandid.**
 
-Do not rename the build plan or create the future product repository until one candidate passes:
+Do not create a product repository, purchase extensive branding, or rename the build plan until one finalist passes:
 
 > **user comprehension + live domain/store reservation + comprehensive legal clearance**
 
-Until then, continue using **Project Aahar** only as the internal codename.
+## Authoritative clearance references
 
-## Key public sources
+- Apple App Store Connect: app record creation, unavailable names, and trademark claims
+- Apple App information: 2–30 character name limit
+- USPTO: comprehensive clearance search for confusingly similar marks and common-law uses
+- Google Play: accurate metadata, non-deception, and non-impersonation requirements
 
-- Apple, app-name availability in App Store Connect: https://developer.apple.com/help/app-store-connect/create-an-app-record/add-a-new-app
-- USPTO, comprehensive clearance searches: https://www.uspto.gov/trademarks/search/comprehensive-clearance-search-similar-trademarks
-- USPTO, likelihood of confusion: https://www.uspto.gov/trademarks/search/likelihood-confusion
-- Apple App Store listing for MacroMasala: https://apps.apple.com/us/app/macromasala-ai-calorie-tracking/id6746452503
-- Nivra nutrition product: https://trynivra.app/
-
-> **Important:** “No obvious exact public match found” is a preliminary research result, not a statement that a name is legally available, registrable, or guaranteed to be accepted by Apple, Google, a registrar, or the USPTO.
+> **Important:** This document is product-name research, not legal advice or a guarantee of availability.
