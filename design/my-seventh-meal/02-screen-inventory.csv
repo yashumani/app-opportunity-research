@@ -1,0 +1,29 @@
+screen_id,area,screen_name,user_goal,primary_action,secondary_action,must_handle,release_priority
+ONB-001,Onboarding,Welcome,"Understand the app in five seconds","Try it now","I already have an account","Small screens; larger text; dark mode",P0
+ONB-002,Onboarding,Goal selection,"Choose the main reason for using the app","Continue","Change later","Single selection; skip option; accessible cards",P0
+ONB-003,Onboarding,Food preferences,"Improve the first estimate without lengthy setup","Continue","Skip for now","Searchable cuisines; dietary options; unit preference",P0
+AUTH-001,Account,Sign in or create account,"Save meals and preferences","Continue with Apple/Google/email","Privacy details","Existing account; failed sign-in; account recovery",P0
+HOME-001,Today,Empty day,"Know how to begin","Scan a meal","Search manually; use saved recipe","No meals; no targets; offline state",P0
+HOME-002,Today,Active day,"Understand current nutrition and recent meals","Scan a meal","Repeat meal; edit meal","Ranges; incomplete data; photo-retention off",P0
+LOG-001,Meal logging,Choose logging method,"Select the easiest logging method","Take a photo","Choose photo; manual entry","Camera denied; photo denied; offline",P0
+LOG-002,Meal logging,Camera,"Capture a useful meal image","Use photo","Retake; cancel","Low light; blur; multiple plates; permissions",P0
+LOG-003,Meal logging,Processing,"Understand that the app is working","Cancel","Finish later","Slow network; service failure; app backgrounded",P0
+LOG-004,Meal logging,Detected items,"Review likely foods and portions","Continue","Edit items; start over","No match; partial match; extra items; wrong items",P0
+LOG-005,Meal logging,Clarification questions,"Provide only details that materially improve the estimate","See estimate","I'm not sure","No more than three questions; skip-safe answers",P0
+LOG-006,Meal logging,Nutrition result,"Understand calories macros and uncertainty","Save meal","Refine estimate; save as regular meal","Wide range; missing nutrients; high uncertainty",P0
+LOG-007,Meal logging,Manual search,"Find and log a food without a photo","Add food","Create custom food","No result; duplicate records; serving units",P0
+LOG-008,Meal logging,Meal editor,"Correct every part of a meal","Save changes","Delete meal","Unsaved changes; recalculation; offline edit",P0
+REC-001,Recipes,Recipe library,"Reuse frequent meals quickly","Log recipe","Create recipe","Empty library; search; sort; large library",P0
+REC-002,Recipes,Recipe detail,"Review and reuse a household recipe","Log this meal","Edit recipe; duplicate","Recipe version; serving changes; missing ingredients",P0
+REC-003,Recipes,Recipe builder,"Create a repeatable household recipe","Save recipe","Add ingredient","Yield; servings; custom ingredients; validation",P0
+PRO-001,Progress,Weekly overview,"Understand patterns without judgment","Choose next-week focus","Change date range","Incomplete week; missing weight; no activity connection",P1
+PRO-002,Progress,Nutrition trends,"Review calorie protein and fiber patterns","View details","Export","Ranges; gaps; accessible chart summaries",P1
+PRO-003,Progress,Weight trend,"See optional weight progress","Add weight","Hide weight tracking","Sensitive language; unit choice; no goal",P1
+ACT-001,Activity,Connect activity,"Add steps and workout minutes","Connect","Not now","Permission denied; unavailable device; disconnect",P1
+PAY-001,Subscription,Value paywall,"Understand paid benefits and exact price","Start plan","Continue free; restore purchase","Trial terms; monthly/annual; purchase failure",P0
+SET-001,Profile,Goals and preferences,"Change targets and food preferences","Save changes","Reset","Methodology note; invalid values",P1
+SET-002,Profile,Privacy controls,"Control photos and personal data","Save preferences","Learn more","Photo retention; analytics consent; processor information",P0
+SET-003,Profile,Export data,"Request a usable copy of personal data","Request export","Cancel","Processing state; delivery failure; identity check",P0
+SET-004,Profile,Delete account,"Permanently remove the account and stored data","Delete account","Cancel","Clear warning; reauthentication; subscription reminder",P0
+SUP-001,Support,Report incorrect nutrition,"Flag a questionable result","Submit report","Edit meal","No sensitive data in support analytics; photo consent",P0
+SYS-001,System,Offline and retry,"Recover from a temporary failure","Try again","Save for later; manual entry","No data loss; clear status; queued work",P0
