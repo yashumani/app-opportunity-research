@@ -1,0 +1,101 @@
+id,phase,target_week,workstream,task,priority,primary_owner,dependency,acceptance_criteria,gate,status
+GOV-001,Phase 0,1,Repository,Create private repository my-seventh-meal-app,P0,Founder,None,"Private repository exists on main and GitHub connector has access",Gate A,Not started
+GOV-002,Phase 0,1,Repository,Push starter package into product repository,P0,Engineer,GOV-001,"Starter history is committed and research repo contains no product source",Gate A,Blocked
+GOV-003,Phase 0,1,Quality,Install dependencies and run verify and type checks,P0,Engineer,GOV-002,"npm install npm run verify and npm run check succeed",Gate A,Blocked
+GOV-004,Phase 0,1,Workflow,Add protected main branch and pull request checks,P1,Engineer,GOV-002,"Direct accidental pushes are prevented and checks run on pull requests",Gate A,Blocked
+GOV-005,Phase 0,1,Environment,Create development test and production environment templates,P0,Engineer,GOV-002,"Environment names secrets owners and rotation expectations are documented",Gate A,Blocked
+DEV-001,Phase 0,1,Devices,Run starter on a current iPhone,P0,Engineer,GOV-003,"Full mock journey completes without blocker",Gate A,Blocked
+DEV-002,Phase 0,1,Devices,Run starter on compact iPhone screen,P0,QA,GOV-003,"No clipping overlap or hidden action in core journey",Gate A,Blocked
+DEV-003,Phase 0,1,Devices,Run starter on recent Android phone,P0,Engineer,GOV-003,"Full mock journey completes without blocker",Gate A,Blocked
+DEV-004,Phase 0,1,Devices,Run starter on smaller or mid-range Android phone,P0,QA,GOV-003,"Core journey remains usable with normal performance",Gate A,Blocked
+DEV-005,Phase 0,1,Web,Run starter in supported web browser,P1,Engineer,GOV-003,"Supporting web route renders and has no blocking error",Gate A,Blocked
+UX-001,Phase 1,2,Experience,Refine welcome and product explanation,P1,Product UX,DEV-001,"First-time users understand photo plus confirmation plus estimate without coaching",Gate A,Not started
+UX-002,Phase 1,2,Experience,Refine goal selection and skip behavior,P1,Product UX,UX-001,"Goal selection is optional editable and understandable",Gate A,Not started
+UX-003,Phase 1,2,Experience,Add camera permission denied experience,P0,Engineer,DEV-001,"User can choose gallery or manual entry without dead end",Gate A,Not started
+UX-004,Phase 1,2,Experience,Add gallery permission denied experience,P0,Engineer,DEV-001,"User can take a photo or enter manually without dead end",Gate A,Not started
+UX-005,Phase 1,2,Resilience,Add loading retry no-result and provider-failure states,P0,Engineer,DEV-001,"Every failure state offers retry edit or manual fallback",Gate A,Not started
+UX-006,Phase 1,2,Resilience,Add local meal draft recovery,P1,Engineer,DEV-001,"Interrupted draft returns after app restart without exposing old photos unnecessarily",Gate A,Not started
+UX-007,Phase 1,3,Accessibility,Test large text and screen reader labels,P0,QA,UX-001,"Core journey works at large text and controls have useful labels",Gate A,Not started
+UX-008,Phase 1,3,Accessibility,Add text summaries for charts,P1,Product UX,UX-007,"Progress information is available without reading chart graphics",Gate A,Not started
+UX-009,Phase 1,3,Content,Review all health and nutrition language,P0,Product UX,UX-001,"No medical diagnosis shame or false-accuracy wording remains",Gate A,Not started
+DAT-001,Phase 1,2,Evaluation,Define 60-meal provider comparison dataset,P0,Product Data,None,"Dataset covers single foods mixed dishes packaged foods restaurant meals and imperfect photos",Gate B,Not started
+DAT-002,Phase 1,3,Evaluation,Capture known ingredients recipe yield and portions for reference subset,P0,Nutrition reviewer,DAT-001,"Reference subset has source photos recipe details and measured portions",Gate B,Not started
+DAT-003,Phase 1,3,Evaluation,Define scoring rubric and correction taxonomy,P0,Product Data,DAT-001,"Top-three match edits questions latency cost and trust definitions are documented",Gate B,Not started
+BE-001,Phase 2,3,Backend,Create backend skeleton and health endpoint,P0,Backend engineer,GOV-005,"Development backend deploys and returns a versioned health response",Gate B,Not started
+BE-002,Phase 2,3,Sessions,Add anonymous development sessions,P0,Backend engineer,BE-001,"A device can create and refresh a temporary session without personal profile data",Gate B,Not started
+IMG-001,Phase 2,3,Images,Compress selected images locally,P0,Mobile engineer,BE-001,"Images meet target size and preserve useful meal detail",Gate B,Not started
+IMG-002,Phase 2,3,Images,Remove unnecessary image metadata,P0,Mobile engineer,IMG-001,"Location and unnecessary metadata are removed before upload",Gate B,Not started
+IMG-003,Phase 2,4,Images,Create short-lived signed private upload flow,P0,Backend engineer,BE-002,"Client uploads without storage credentials and objects are private",Gate B,Not started
+IMG-004,Phase 2,4,Privacy,Implement default post-analysis photo deletion,P0,Backend engineer,IMG-003,"Raw photos are deleted on schedule unless retention was explicitly selected",Gate B,Not started
+IMG-005,Phase 2,4,Privacy,Add photo retention preference,P1,Mobile engineer,IMG-004,"User can understand and change whether photos remain stored",Gate B,Not started
+OBS-001,Phase 2,4,Measurement,Record request timing provider and estimated cost,P0,Backend engineer,BE-001,"Metrics contain no raw meal photo food name weight or health detail",Gate B,Not started
+OBS-002,Phase 2,4,Measurement,Add provider failure and retry limits,P0,Backend engineer,BE-001,"Retries are bounded and failure returns a manual fallback",Gate B,Not started
+AI-001,Phase 3,4,Providers,Implement Passio adapter in test environment,P0,Backend engineer,IMG-003,"Response is normalized to internal MealAnalysis schema",Gate B,Not started
+AI-002,Phase 3,4,Providers,Implement LogMeal adapter in test environment,P0,Backend engineer,IMG-003,"Response is normalized to internal MealAnalysis schema",Gate B,Not started
+AI-003,Phase 3,4,Providers,Implement general vision adapter in test environment,P0,Backend engineer,IMG-003,"Response contains candidates uncertainty and questions but no final nutrition authority",Gate B,Not started
+AI-004,Phase 3,5,Evaluation,Run first 20-meal provider comparison,P0,Product Data,AI-001|AI-002|AI-003,"Scorecard includes recognition corrections questions latency failures privacy and cost",Gate B,Not started
+AI-005,Phase 3,6,Questions,Build high-impact question ranking,P0,Product UX,AI-004,"Questions prioritize portion preparation added fats and hidden ingredients",Gate B,Not started
+AI-006,Phase 3,6,Evaluation,Run complete 60-meal provider comparison,P0,Product Data,AI-005,"Results are reproducible and provider recommendation is written",Gate B,Not started
+AI-007,Phase 3,7,Decision,Approve provider or hybrid approach,P0,Founder,AI-006,"Decision documents strengths limitations privacy cost and supported meal boundary",Gate B,Not started
+NUT-001,Phase 4,6,Nutrition,Connect USDA FoodData Central through backend,P0,Backend engineer,BE-001,"Search and food-detail calls are server-side and source IDs are stored",Gate C,Not started
+NUT-002,Phase 4,6,Nutrition,Create canonical food ingredient serving and nutrient records,P0,Backend engineer,NUT-001,"Records include source version unit and data-quality status",Gate C,Not started
+NUT-003,Phase 4,7,Calculation,Build deterministic nutrient calculation service,P0,Backend engineer,NUT-002,"Calories protein carbs fat and fiber derive from structured quantities",Gate C,Not started
+NUT-004,Phase 4,7,Calculation,Build unit conversion library,P0,Engineer,NUT-002,"Grams ounces cups spoons pieces and servings pass tests",Gate C,Not started
+NUT-005,Phase 4,8,Recipes,Build recipe yield and per-serving calculations,P0,Engineer,NUT-003,"Recipe total and per-serving values are reproducible and versioned",Gate C,Not started
+NUT-006,Phase 4,8,Uncertainty,Build portion and recipe uncertainty range logic,P0,Product Data,NUT-003,"Range expands or narrows based on known and unknown inputs",Gate C,Not started
+NUT-007,Phase 4,8,Mapping,Map confirmed meal items to canonical records,P0,Backend engineer,AI-007|NUT-002,"Mapping is reviewable and low-confidence matches are flagged",Gate C,Not started
+NUT-008,Phase 4,9,Quality,Add nutrition regression test set,P0,Nutrition reviewer,NUT-003,"Known foods recipes conversions and ranges pass repeatable tests",Gate C,Not started
+NUT-009,Phase 4,9,Admin,Create internal incorrect-mapping review queue,P1,Engineer,NUT-007,"Reported items can be reviewed corrected and versioned",Gate C,Not started
+LOG-001,Phase 5,8,Manual logging,Build structured food search,P0,Mobile engineer,NUT-001,"User can find select size and add a food without photo",Gate C,Not started
+LOG-002,Phase 5,9,Packaged food,Add barcode scanning and lookup,P1,Mobile engineer,LOG-001,"Supported barcode results are editable and manual fallback exists",Gate C,Not started
+LOG-003,Phase 5,9,History,Add recent foods favorites and one-tap repeat,P0,Mobile engineer,LOG-001,"Repeat logging is materially faster than first entry",Gate C,Not started
+LOG-004,Phase 5,10,Recipes,Build household recipe creator,P0,Mobile engineer,NUT-005,"User can add ingredients yield and serving without expert knowledge",Gate D,Not started
+LOG-005,Phase 5,10,Recipes,Save corrected photo meal as regular meal,P0,Engineer,AI-007|LOG-004,"Corrected items portions and assumptions are reusable",Gate D,Not started
+LOG-006,Phase 5,11,Recipes,Add leftovers and recipe versioning,P1,Engineer,LOG-004,"Leftovers preserve original recipe version and serving logic",Gate D,Not started
+LOG-007,Phase 5,11,History,Add edit and delete logged meal,P0,Mobile engineer,LOG-001,"Today totals update correctly after edits and deletion",Gate D,Not started
+LOG-008,Phase 5,12,Offline,Add recent-meal cache and sync queue,P1,Engineer,LOG-003,"Recent logging works during a temporary connection loss and sync recovers safely",Gate D,Not started
+LOG-009,Phase 5,12,Support,Add report incorrect nutrition flow,P1,Product UX,NUT-009,"Report includes record identifiers and user explanation without exposing unrelated data",Gate D,Not started
+DASH-001,Phase 6,10,Today,Connect Today totals to real saved meals,P0,Mobile engineer,NUT-003|LOG-001,"Totals ranges and meal history reflect saved records",Gate D,Not started
+DASH-002,Phase 6,11,Progress,Add protein fiber and weekly consistency,P0,Mobile engineer,DASH-001,"Weekly summaries are correct and have accessible text",Gate D,Not started
+DASH-003,Phase 6,12,Weight,Add optional weight logging and trend,P1,Mobile engineer,DASH-001,"Weight is optional editable deletable and not framed diagnostically",Gate D,Not started
+DASH-004,Phase 6,13,Activity,Add Apple Health step and workout-minute connection,P1,Engineer,DASH-001,"Permission is user initiated read-only and revocable",Gate D,Not started
+DASH-005,Phase 6,13,Activity,Add Android Health Connect step and workout-minute connection,P1,Engineer,DASH-001,"Permission is user initiated read-only and revocable",Gate D,Not started
+DASH-006,Phase 6,14,Insights,Add neutral weekly observations,P1,Product Data,DASH-002,"Observation is explainable limited and contains no medical advice",Gate D,Not started
+AUTH-001,Phase 7,13,Accounts,Preserve guest mode before signup,P0,Engineer,DASH-001,"User can experience core value without immediate account creation",Gate E,Not started
+AUTH-002,Phase 7,13,Accounts,Add email account creation recovery and login,P0,Engineer,AUTH-001,"Account create login logout recovery and guest migration pass",Gate E,Not started
+AUTH-003,Phase 7,14,Accounts,Add Sign in with Apple,P0,Engineer,AUTH-002,"Apple login and private email path work on signed iOS build",Gate E,Not started
+AUTH-004,Phase 7,14,Accounts,Add Google sign-in,P1,Engineer,AUTH-002,"Google login works on signed Android and iOS builds",Gate E,Not started
+PRV-001,Phase 7,13,Privacy,Complete data inventory and flow diagram,P0,Privacy reviewer,BE-001,"Every field processor purpose retention and deletion path is recorded",Gate E,Not started
+PRV-002,Phase 7,14,Privacy,Implement data export,P0,Engineer,AUTH-002,"User receives meals recipes goals progress and relevant account data",Gate E,Not started
+PRV-003,Phase 7,14,Privacy,Implement in-app account deletion,P0,Engineer,AUTH-002,"Account and associated data are removed or disclosed retention is applied",Gate E,Not started
+PRV-004,Phase 7,15,Web,Create public account-deletion request page,P0,Engineer,PRV-003,"Page is public functional clearly branded and allows a request without reinstalling",Gate E,Not started
+PRV-005,Phase 7,15,Legal,Publish privacy terms methodology and support pages,P0,Founder,PRV-001,"Pages match actual providers data uses retention and user controls",Gate E,Not started
+PAY-001,Phase 7,14,Subscriptions,Configure RevenueCat environments and products,P0,Engineer,AUTH-002,"Sandbox entitlements work independently on iOS and Android",Gate E,Not started
+PAY-002,Phase 7,15,Subscriptions,Build free allowance and paid entitlement rules,P0,Engineer,PAY-001,"Limits are clear and paid access is consistent across devices",Gate E,Not started
+PAY-003,Phase 7,15,Subscriptions,Build transparent paywall and restore purchases,P0,Product UX,PAY-001,"Price period renewal trial if any and restore are clear",Gate E,Not started
+PAY-004,Phase 7,16,Subscriptions,Test purchase cancellation expiration and refund states,P0,QA,PAY-003,"Entitlements update correctly for all lifecycle states",Gate E,Not started
+ALP-001,Phase 8,16,Research,Recruit 20 to 30 private alpha testers,P0,Beta coordinator,None,"Cohort includes iPhone Android and varied meal types",Gate D,Not started
+ALP-002,Phase 8,17,Research,Observe first meal with at least 10 testers,P0,Product UX,ALP-001,"Findings include comprehension hesitation time and failure points",Gate D,Not started
+ALP-003,Phase 8,17,Research,Run seven-day logging diary,P0,Beta coordinator,ALP-001,"At least 15 testers complete five or more days",Gate D,Not started
+ALP-004,Phase 8,18,Evaluation,Expand provider validation set toward 200 meals,P0,Product Data,ALP-003,"Set includes real alpha corrections and known-reference subset",Gate D,Not started
+ALP-005,Phase 8,18,Quality,Run accessibility alpha review,P0,QA,ALP-001,"Large text focus order screen reader and contrast defects are logged",Gate D,Not started
+ALP-006,Phase 8,19,Decision,Complete alpha GO REVISE KILL review,P0,Founder,ALP-002|ALP-003|ALP-004,"Decision covers speed activation retention trust cost and critical defects",Gate D,Not started
+BET-001,Phase 9,19,Builds,Create signed TestFlight build,P0,Engineer,ALP-006,"Build installs subscription sandbox works and review access is documented",Gate E,Not started
+BET-002,Phase 9,19,Builds,Create Google Play closed-test build,P0,Engineer,ALP-006,"Build installs from Play and tester access is documented",Gate E,Not started
+BET-003,Phase 9,20,Research,Recruit 75 to 100 beta users,P0,Beta coordinator,BET-001|BET-002,"Cohort meets platform and target-user coverage",Gate E,Not started
+BET-004,Phase 9,20,Quality,Run upgrade reinstall slow network and provider failure tests,P0,QA,BET-001|BET-002,"No data loss and recovery paths work",Gate E,Not started
+BET-005,Phase 9,20,Privacy,Reconcile app behavior privacy labels Data Safety and health declaration,P0,Privacy reviewer,PRV-005,"Declarations exactly match app SDK and backend behavior",Gate E,Not started
+BET-006,Phase 9,21,Security,Complete threat and security review,P0,Security reviewer,BET-001|BET-002,"No critical finding and remediation owners exist",Gate E,Not started
+BET-007,Phase 9,21,Support,Establish support triage refund and incident process,P0,Founder,BET-003,"Contact channel response owner and escalation are documented",Gate E,Not started
+BET-008,Phase 9,22,Decision,Complete paid beta GO REVISE KILL review,P0,Founder,BET-003|BET-004|BET-005|BET-006,"Decision covers paid commitment retention crash cost privacy and support readiness",Gate E,Not started
+REL-001,Phase 10,23,Brand,Complete final name store domain and trademark decision,P0,Founder,BET-008,"Final public brand is approved and reserved where practical",Gate F,Not started
+REL-002,Phase 10,23,Store,Prepare iOS and Android screenshots descriptions and release notes,P0,Product UX,REL-001,"Metadata accurately represents photo estimate limitations and features",Gate F,Not started
+REL-003,Phase 10,23,Store,Prepare reviewer notes demo access and methodology explanation,P0,Founder,REL-002,"Reviewer can test core flow subscriptions deletion and manual fallback",Gate F,Not started
+REL-004,Phase 10,23,Quality,Complete release regression on full device matrix,P0,QA,REL-002,"No P0 or launch-blocking P1 defect remains",Gate F,Not started
+REL-005,Phase 10,24,Submission,Submit iOS release candidate,P0,Engineer,REL-003|REL-004,"Build is submitted with complete metadata and declarations",Gate F,Not started
+REL-006,Phase 10,24,Submission,Submit Android release candidate or production-access request,P0,Engineer,REL-003|REL-004,"Build and required testing or access steps are complete",Gate F,Not started
+POST-001,Post launch,25,Operations,Monitor crashes provider failures deletion and purchases daily,P0,Founder,REL-005|REL-006,"Daily review and escalation occur for first 14 days",Post launch,Not started
+POST-002,Post launch,26,Product,Review activation D7 retention corrections and cost,P0,Product Data,POST-001,"First improvement list is ranked by trust retention and cost impact",Post launch,Not started
+POST-003,Post launch,28,Product,Release first trust and repeat-meal improvement,P1,Engineer,POST-002,"Update addresses highest-impact evidence-backed issue",Post launch,Not started
+POST-004,Post launch,32,Decision,Complete 60-day scale focus reposition or stop review,P0,Founder,POST-002,"Decision includes retention economics support burden and roadmap",Post launch,Not started
+POST-005,Post launch,36,Decision,Complete 90-day product review,P0,Founder,POST-004,"Decision selects next expansion such as voice family recipes or broader cuisine coverage",Post launch,Not started
